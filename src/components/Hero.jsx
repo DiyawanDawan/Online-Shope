@@ -6,7 +6,7 @@ const Hero = ({
   subtitle = "Find what you love here with ease",
 }) => {
   return (
-    <section className="relative py-20 mb-4 h-[90vh] overflow-hidden">
+    <section className="relative top-20 py-20 mb-4 h-[90vh] overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <img

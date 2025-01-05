@@ -24,7 +24,7 @@ const ProdukPage = ({ deleteProduk }) => {
     <>
 
       {/* <!-- Go Back --> */}
-      <section>
+      <section className="relative top-20">
         <div className="container m-auto py-6 px-6">
           <Link
             to="/produks"

@@ -15,7 +15,7 @@ const Navbar = () => {
       : "flex items-center space-x-2 text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2 transition";
 
   return (
-    <nav className="bg-green-700 border-b border-green-500 shadow-lg">
+    <nav className="bg-green-700 border-b border-green-500 shadow-lg fixed top-0 left-0 right-0 z-40">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}

@@ -1,7 +1,7 @@
 
 const AboutPage = () => {
   return (
-    <div className="p-6 bg-gray-100 text-gray-800">
+    <div className="p-6 bg-gray-100 text-gray-800 relative top-20">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-center text-green-700 mb-6">Tentang Kami</h1>
         <p className="text-lg leading-relaxed mb-6">
