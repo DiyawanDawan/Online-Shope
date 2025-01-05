@@ -11,9 +11,15 @@ https://fakestoreapi.com/docs
 
 [fakestoreapi](https://github.com/public-apis/public-apis)
 
+### Demo
+
+https://awanshop.netlify.app/
+
 ### Dock
 
-clone
+### clone 
+
+https://github.com/DiyawanDawan/Online-Shope.git
 
 npm install
 
