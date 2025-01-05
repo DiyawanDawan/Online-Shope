@@ -99,7 +99,7 @@ const Footer = () => {
 
       <div className="mt-8 text-center border-t border-gray-700 pt-4">
         <p className="text-sm text-gray-500">
-          © {new Date().getFullYear()} Cinta Bumi. All rights reserved.
+          © {new Date().getFullYear()} Awan Shope. All rights reserved.
         </p>
       </div>
     </footer>

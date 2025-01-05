@@ -27,22 +27,25 @@ const navigate = useNavigate()
     return navigate('/produks')
   }
   return (
-    <section className="bg-green-50">
+    <section className="bg-green-100">
       <div className="container m-auto max-w-2xl py-24">
         <div className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
           <form onSubmit={submitForm}>
-            <h2 className="text-3xl text-center font-semibold mb-6">Add Produk</h2>
+            <h2 className="text-3xl text-center text-green-800 font-semibold mb-6">Add Produk</h2>
 
         
             <div className="mb-4">
-              <label htmlFor="title" className="block text-gray-700 font-bold mb-2">
+              <label htmlFor="title" className="block text-green-700 font-bold mb-2">
                Titel
               </label>
               <input
                 type="text"
                 id="title"
                 name="title"
-                className="border rounded w-full py-2 px-3 mb-2"
+                className="border rounded w-full py-2 px-3 mb-2  focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-green-500 invalid:text-green-600
+      focus:invalid:border-green-500 focus:invalid:ring-green-500"
                 placeholder="Judul Produk"
                 required
                 value={title}
@@ -50,14 +53,17 @@ const navigate = useNavigate()
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="price" className="block text-gray-700 font-bold mb-2">
+              <label htmlFor="price" className="block text-green-700 font-bold mb-2">
                 Harga
               </label>
               <input
                 type="number"
                 id="price"
                 name="price"
-                className="border rounded w-full py-2 px-3 mb-2"
+                className="border rounded w-full py-2 px-3 mb-2 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-green-500 invalid:text-green-600
+      focus:invalid:border-green-500 focus:invalid:ring-green-500"
                 placeholder="Harga Produk"
                 required
                 value={price}
@@ -67,14 +73,17 @@ const navigate = useNavigate()
            
 
             <div className="mb-4">
-              <label htmlFor="catagory" className="block text-gray-700 font-bold mb-2">
+              <label htmlFor="catagory" className="block text-green-700 font-bold mb-2">
                 Catagory
               </label>
               <input
                 type="text"
                 id="catagory"
                 name="catagory"
-                className="border rounded w-full py-2 px-3 mb-2"
+                className="border rounded w-full py-2 px-3 mb-2 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-green-500 invalid:text-green-600
+      focus:invalid:border-green-500 focus:invalid:ring-green-500"
                 placeholder="Katagory produk"
                 required
                 value={catagory}
@@ -87,14 +96,17 @@ const navigate = useNavigate()
             <div className="mb-4">
               <label
                 htmlFor="description"
-                className="block text-gray-700 font-bold mb-2"
+                className="block text-green-700 font-bold mb-2"
               >
                 Description
               </label>
               <textarea
                 id="description"
                 name="description"
-                className="border rounded w-full py-2 px-3"
+                className="border rounded w-full py-2 px-3 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-green-500 invalid:text-green-600
+      focus:invalid:border-green-500 focus:invalid:ring-green-500"
                 rows="4"
                 placeholder="Deskripsi produk"
                 value={description}
@@ -103,7 +115,7 @@ const navigate = useNavigate()
             </div>
            
             <div className="mb-4">
-              <label htmlFor="image" className="block text-gray-700 font-bold mb-2">
+              <label htmlFor="image" className="block text-green-700 font-bold mb-2">
                Iamage Url
               </label>
               
@@ -111,7 +123,10 @@ const navigate = useNavigate()
                 type="text"
                 id="image"
                 name="image"
-                className="border rounded w-full py-2 px-3 mb-2"
+                className="border rounded w-full py-2 px-3 mb-2 focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-green-500 invalid:text-green-600
+      focus:invalid:border-green-500 focus:invalid:ring-green-500"
                 placeholder="Prduk image URL"
                 required
                 value={image}
