@@ -5,7 +5,7 @@ const Spinner = ({ loading }) => {
         margin: '100px auto',
     }
     return (
-        <ClipLoader color="#4338ca" loading={loading} cssOverride={override}
+        <ClipLoader color="#5CB338" loading={loading} cssOverride={override}
             size={150} />
     )
 }
